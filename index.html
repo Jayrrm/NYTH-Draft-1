@@ -9,15 +9,63 @@
 </head>
 <body>
 <tw-story><noscript><tw-noscript>JavaScript needs to be enabled to play Not Yours to Have Draft 1.</tw-noscript></noscript></tw-story>
-<tw-storydata name="Not Yours to Have Draft 1" startnode="1" creator="Twine" creator-version="2.3.16" ifid="2A5C6F73-0B09-4E8F-8DE0-586027BDA6B2" zoom="0.6" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">tw-passage {
-   text-align: left; 
-  font-size: 3vh;
-  font-size: 3vw;
+<tw-storydata name="Not Yours to Have Draft 1" startnode="1" creator="Twine" creator-version="2.3.16" ifid="2A5C6F73-0B09-4E8F-8DE0-586027BDA6B2" zoom="0.6" format="Harlowe" format-version="3.2.3" options="" hidden><style role="stylesheet" id="twine-user-stylesheet" type="text/twine-css">@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+tw-story {
+  font-family: 'Titillium Web', sans-serif;;
+  color: #FFF;
+  background-color: #000;
+  text-align: left; 
   font-size: 3vmin;
   line-height: normal;
-}</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Cottage" tags="" position="499,51" size="100,100">You are in a small cottage resting on the edge of an inland sea. It is dusk.
+  width: 125%;
+  margin-left: -12%;
+  letter-spacing: 1.15px;
+}
 
-You can hear small waves lap at the shore. Lanturns hang from the roof and sway gently with the breeze.
+tw-sidebar {
+  display: none;
+}
+
+tw-story {
+  background-color: #c5b9ff
+}
+
+tw-passage {
+  background-color: rgba(5, 5, 5, 0.61)
+}
+
+.enchantment-link:hover, tw-link:hover {
+	color: rgba(28, 129, 201, 1);
+}
+  
+.enchantment-link, tw-link {
+	color: rgba(181, 217, 255, 1);
+}
+
+.visited {
+    color: rgba(181, 217, 255, 1);
+}
+
+.visited:hover {
+    color: rgba(28, 129, 201, 1)
+}
+
+tw-story[tags~=major] {
+  background-color: #ffbfb9
+}
+
+tw-story[tags~=minor] {
+  background-color: #b9ffd2
+}
+
+tw-story[tags~=intense] {
+  background-color: #ffe2b9
+}
+
+</style><script role="script" id="twine-user-script" type="text/twine-javascript"></script><tw-passagedata pid="1" name="Cottage" tags="" position="499,51" size="100,100">You are in a small cottage resting on the edge of an inland sea. It is dusk.
+
+You can hear the small waves lapping at the shore. Lanterns hang from the roof and sway gently with the breeze.
 
 Your friend Willem sits on an old flaying armchair. Family photos spanning across generations fill the wall behind him.
 
@@ -31,17 +79,26 @@ For weeks he has plotted to transfer ownership of Pearls that Ripple and Co, a r
 
 [[&quot;Ok, fine. I&#39;m in.&quot;]]
 [[&quot;But what&#39;s in it for me?&quot;]]</tw-passagedata><tw-passagedata pid="2" name="&quot;Ok, fine. I&#39;m in.&quot;" tags="" position="397,199" size="100,100">&quot;Yes! I knew you wouldn&#39;t back out Fran,&quot; Willem says. He gets off his seat and wanders over to the window, unable to keep still. &quot;The village will be so thrilled if we pull this off, you know. We&#39;ll all add a bunch of Pearls to our bracelets.&quot; He nods at your arm.
+
 A bracelet made of small red pearls wraps around your wrist. You wonder how they work, how they accelerate your healing and leave you without a single scar on your body. Their magic is an ancient mystery no one has ever managed to decipher.
+
 &quot;They won&#39;t be happy about the amount of clams being killed,&quot; you tell him. You hate to burst his bubble, but the elders at the temple with cringe at the thought of how many clams died at the mercy of the organisation.
+
 Willem hardly looked troubled. &quot;The sad truth is they&#39;re dead no matter what we do. The most we can do is return the Pearls back to those who hold them dear.&quot;
+
 Thinking about the Pearls&#39; value makes you nervous.
 
 [[&quot;I&#39;m going to regret this.&quot;]]
 [[&quot;Okay, but I&#39;m doing this for the village.&quot;-&gt;&quot;I&#39;m doing this for the village.&quot;]]</tw-passagedata><tw-passagedata pid="3" name="&quot;But what&#39;s in it for me?&quot;" tags="" position="603,196" size="100,100">&quot;Don&#39;t tell me you haven&#39;t wanted the Pearls restored to the people as much as everyone else,&quot; Willem chuckles. &quot;Imagine the look on the faces of the elders in the temple when we bring a truckload of them back!&quot;
-&quot;Yeah, I&#39;m sure they&#39;ll appreciate it a heap. A hundred Pearls red mean a hundred clams dead,&quot; you say fiddling with your fingles.
-&quot;Better in our hands then theirs. Or should I say, on our wrists...&quot; he says, guestering to your arm.
+
+&quot;Yeah, I&#39;m sure they&#39;ll appreciate it a heap. A hundred Pearls red mean a hundred clams dead,&quot; you say fiddling with your fingers.
+
+&quot;Better in our hands than theirs. Or should I say, around our wrists...&quot; he says, guestering to your arm.
+
 You wear a band of small red pearls. They look ordinary, but you have seen first hand their healing power. Not a scar remains from wounds on your body.
+
 Willem leans in. &quot;We&#39;ll take better care of the Pearls, and everyone can add another Pearl or two to their bracelets, including - no - //especially// you.&quot;
+
 You shuffle in your seat.
 
 [[&quot;I&#39;m going to regret this.&quot;]]
@@ -65,25 +122,17 @@ You have a suspicion he wants to get the Pearls for himself, but you figure the 
 
 [[&quot;What&#39;s the plan?&quot;]]</tw-passagedata><tw-passagedata pid="6" name="&quot;What&#39;s the plan?&quot;" tags="" position="501,500" size="100,100">Willem sits back down, leaning forward. He looks determined.
 
-&quot;I have a few different plans. The first one is the least drastic and the last one the most. Firstly, we could attempt to win the hearts of the Ripple board. If we can describe the pain the fishing of clams causes the village, and outline an alternative, they might just give it up and hand over the Pearls.
+&quot;I have a few different plans. The first one is the least drastic. The last one is the most. Firstly, we could attempt to win the hearts of the flagship&#39;s captain. If we can describe the pain the fishing of clams causes the village, and outline an alternative, they might just give it up and hand over the Pearls.
 
-&quot;A little more on the risky side, we could steal the Pearls, which would hopefully in turn create a chashflow crisis and sink the business. Ripple&#39;s demise isn&#39;t guaranteed but at least we&#39;re certain to save the Pearls.
+&quot;A little more on the risky side, we could steal the Pearls, which would hopefully in turn create a cashflow crisis and sink the business. Ripple&#39;s demise isn&#39;t guaranteed but at least we&#39;re certain to save the Pearls.
 
-&quot;And, at the extreme end of things, we could go undercover, sabotage the boat and take some Pearls as we escape. There are big up and downsides to this plan though - as it permanently destroys their flagship and those onboard, but also creates a shipwreck at the bottom of the sea. The elders wouldn&#39;t be happy about that, no doubt.&quot;
+&quot;And, at the extreme end of things, we could go undercover, sabotage the boat and take some Pearls as we escape. There are big up and downsides to this plan though - as it destroys their flagship and those onboard, but also creates a shipwreck at the bottom of the sea. The elders wouldn&#39;t be happy about that, no doubt.&quot;
 
 You brush your hair through your hands, thinking. The sooner a decision is made, the more comprehensively you can plan.
 
-[[Win the board&#39;s hearts]]
+[[Win over the captain]]
 [[Steal the Pearls]]
-[[Sabotage the flagship]]</tw-passagedata><tw-passagedata pid="7" name="Win the board&#39;s hearts" tags="" position="189,671" size="100,100">(set: $Hearts to true)You choose to take the moral road: convince Ripple and Co&#39;s board to give the Pearls back to the village. You tell Willem.
-
-&quot;Sounds fine to me,&quot; he shrugs. &quot;We just have to think of what&#39;s in it for them. You know what these corporate shmucks are like: they&#39;re moths who fly on over to the brighter light.&quot;
-
-&quot;I say we offer them something we don&#39;t have,&quot; you say. &quot;I&#39;d bet you a limb these board members know nothing about our village&#39;s heritage. It would be easy to convince them we know the existence of a cave with greater fortunes than clams.&quot;
-
-Willem grins and shakes your hand. &quot;I bet you once they figure it out they&#39;ll come after us for the Pearls, but if we have them all, they can hardly hurt us. All of the Pearls&#39; healing powers will be ours. As long as they agree, this might just work.&quot;
-
-[[&quot;We&#39;re going to need supplies,&quot;]] you point out.</tw-passagedata><tw-passagedata pid="8" name="Steal the Pearls" tags="" position="500,657" size="100,100">(set: $Steal to true)You choose to steal the Pearls from Ripple and Co. You tell Willem and mischeif lights up his eyes. He was always a naughty kid, but that was what drew you to him.
+[[Sabotage the flagship]]</tw-passagedata><tw-passagedata pid="7" name="Steal the Pearls" tags="" position="500,657" size="100,100">(set: $Steal to true)You choose to steal the Pearls from Ripple and Co. You tell Willem and mischief lights up his eyes. He was always a naughty kid, but that was what drew you to him.
 
 &quot;I like it! We&#39;ll have to figure out how to get on board, find where they&#39;re kept, and transport them discreetly. I think they won&#39;t even catch a whiff of us if we&#39;re careful.&quot;
 
@@ -91,7 +140,7 @@ The thought of being caught makes you nervous, but you remind yourself who this 
 
 It will be a process though. The two of you will have to be prepared for everything.
 
-[[&quot;We&#39;re going to need supplies,&quot;]] you point out.</tw-passagedata><tw-passagedata pid="9" name="Sabotage the flagship" tags="" position="810,676" size="100,100">(set: $Sabotage to true)You choose to sabotage the flagship. You tell Willem, and it lights a fire of determination in his eyes.
+[[&quot;We&#39;re going to need supplies,&quot;]] you point out.</tw-passagedata><tw-passagedata pid="8" name="Sabotage the flagship" tags="" position="810,657" size="100,100">(set: $Sabotage to true)You choose to sabotage the flagship. You tell Willem, and it lights a fire of determination in his eyes.
 
 &quot;Go big or go home, that&#39;s what I always say,&quot; Willem says. &quot;The main challenge is going to be removing the Pearls from the ship unharmed. We could dump them back into the sea, which would at the very least they&#39;re back in nature... but it would be even better if we could return them to the village.&quot;
 
@@ -99,13 +148,13 @@ You nod your head, but you have your doubts. &quot;I think it will be nearly imp
 
 Willem nods in solemn thought. &quot;I&#39;ll have a think about it,&quot; he says finally.
 
-[[&quot;We&#39;re going to need supplies,&quot;]] you point out.</tw-passagedata><tw-passagedata pid="10" name="&quot;We&#39;re going to need supplies,&quot;" tags="" position="504,851" size="100,100">&quot;Of course,&quot; Willem says. &quot;But we don&#39;t have much time. Their flagship is due to return from the sea soon with their spoils. It could be any day now. I&#39;ll give you until the end of today to get supplies ready for tomorrow. That way, we can begin tomorrow.&quot;
+[[&quot;We&#39;re going to need supplies,&quot;]] you point out.</tw-passagedata><tw-passagedata pid="9" name="&quot;We&#39;re going to need supplies,&quot;" tags="" position="504,851" size="100,100">&quot;Of course,&quot; Willem says. &quot;But we don&#39;t have much time. Their flagship is due to return from the sea soon with their spoils. It could be any day now. I&#39;ll give you until the end of today to get supplies ready for tomorrow. That way, we can begin tomorrow.&quot;
 
 You&#39;re surprised at the speed Willem plans to go ahead. &quot;Tomorrow? Don&#39;t we need more time to figure out how to do this?&quot; you ask.
 
 &quot;Don&#39;t worry,&quot; Willem says with a wink. &quot;I&#39;ve planned this out meticulously already. Meet me here by the end of the day.&quot;
 
-[[Exit to the village.-&gt;Village Square]]</tw-passagedata><tw-passagedata pid="11" name="Village Square" tags="" position="495,1038" size="100,100">(if: $counter is &lt;3)[You stand at the centre of the village.
+[[Exit to the village.-&gt;Village Square]]</tw-passagedata><tw-passagedata pid="10" name="Village Square" tags="minor" position="495,1038" size="100,100">(if: $counter is &lt;3)[You stand at the centre of the village.
 
 [[Grocery stands]] are bustling, and people empty out of the [[temple-&gt;Temple]] having finished their afternoon prayers.
 
@@ -121,26 +170,26 @@ You have run out of time. Although you couldn&#39;t grab everything you wanted, 
 
 Behind you people have started a fire in the centre of the Square to drive the bad spirits away. However, it cannot do the same for the flagship still looming in the distance.
 
-[[To Willem&#39;s place.-&gt;Back at Willem&#39;s]]]</tw-passagedata><tw-passagedata pid="12" name="Grocery stands" tags="" position="289,1066" size="100,100">The grocery stands are always busy, no matter what time of the day.
+[[To Willem&#39;s place.-&gt;Back at Willem&#39;s]]]</tw-passagedata><tw-passagedata pid="11" name="Grocery stands" tags="minor" position="289,1066" size="100,100">The grocery stands are always busy, no matter what time of the day.
 
 You push through the crowd to look at the produce. The tender knows you well, and starts offering the usual food to you. Apples, carrots, potatoes.
 
-A small bag of oranges on a shelf closest to you catches your eye. Oranges are rarer around these parts, and more costly. You have just enough money to spend. They could be a good bargaining tool.
+A small bag of oranges on a shelf closest to you catches your eye. Oranges are rare around these parts, and more costly. You have just enough money to spend. They could be a good bargaining tool.
 
 (if: $oranges is true)[There is an empty space left from where you picked up the oranges.]
 (else:)[On display, a small bag of [[oranges-&gt;Choose Oranges]] catches your eye. Oranges are rarer around these parts, and more costly. You have just enough money to spend. They could be a good bargaining tool.]
 
 [[Back to Village Square -&gt;Village Square]] 
-</tw-passagedata><tw-passagedata pid="13" name="Temple" tags="" position="707,1085" size="100,100">The temple is quiet and mostly empty. Only a few people are left praying silently.
+</tw-passagedata><tw-passagedata pid="12" name="Temple" tags="minor" position="707,1085" size="100,100">The temple is quiet and mostly empty. Only a few people are left praying silently.
 
-The walls are covered with paintings and display cases containing rare artifacts collected by the village throughout history.
+The walls are covered with paintings and display cases containing rare artefacts collected by the village throughout history.
 
 There is a shelf towards the back of the temple with some totems on it. 
 
 (if: $totem is true)[There is an empty space left from where you picked up your totem.]
-(else:)[[[A totem-&gt;Choose Totem]] is said to fulfil a wish when the user is in dire need. Who knows what might happen on the ship?]
+(else:)[A [[totem-&gt;Choose Totem]] is said to fulfil a wish when the user is in dire need. Who knows what might happen on the ship?]
 
-[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="14" name="Home" tags="" position="669,1249" size="100,100">The familiar smell of your home greets you as you enter.
+[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="13" name="Home" tags="minor" position="669,1249" size="100,100">The familiar smell of your home greets you as you enter.
 
 The window you left open blows a cool breeze through the hut. It&#39;s small, only three rooms, but it&#39;s a home nonetheless.
 
@@ -149,7 +198,7 @@ You open a cabinet that contains an assortment of items.
 (if: $rope is true)[There is an empty space left from where you picked up the rope.]
 (else:)[A [[rope-&gt;Choose Rope]] hangs at the back of the cabinet. Nothing compares to a rope when it comes to felxibility.]
 
-[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="15" name="Bank" tags="" position="315,1258" size="100,100">The bank smells like perfume.
+[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="14" name="Bank" tags="minor" position="315,1258" size="100,100">The bank smells like perfume.
 
 A banker sits dressed formally behind a sheet of glass. It is unusual for a person to be dressed so officially in the village. Being money-driven is not a quality admired by villagers.
 
@@ -158,20 +207,20 @@ You could talk to the banker and take out a loan. The village will surely be ind
 (if: $money is true)[You have already talked to the banker and taken some money.]
 (else:)[You could talk to the banker and take out a [[loan-&gt;Loan Money]]. The village will surely be indebted to you if it works. Who cares about green paper, anyway?]
 
-[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="16" name="Fisherman&#39;s hut" tags="" position="507,1351" size="100,100">The fisherman&#39;s shack smells of damp wood and sand.
+[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="15" name="Fisherman&#39;s hut" tags="minor" position="507,1351" size="100,100">The fisherman&#39;s shack smells of damp wood and sand.
 
 There are various items and utensils on the shelves: jars, fishing hooks, rods, spare string.
 
-There is a wookbench stained a slight red at the rear of the shack. You&#39;ve never known the shack to belong to anyone in particular. No one would notice if you took something.
+There is a workbench stained a slight red at the rear of the shack. You&#39;ve never known the shack to belong to anyone in particular. No one would notice if you took something.
 
 (if: $knife is true)[There is an empty space left from where you picked up the knife.]
 (else:)[There is a [[knife-&gt;Choose Knife]] sitting on the edge of the bench. It may come in handy.]
 
-[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="17" name="Choose Knife" tags="" position="490,1496" size="100,100">The fisherman&#39;s shack smells of damp wood and sand.
+[[Back to Village Square -&gt;Village Square]] </tw-passagedata><tw-passagedata pid="16" name="Choose Knife" tags="minor" position="490,1496" size="100,100">The fisherman&#39;s shack smells of damp wood and sand.
 
 There are various items and utensils on the shelves: jars, fishing hooks, rods, spare string.
 
-There is a wookbench stained a slight red at the rear of the shack. You&#39;ve never known the shack to belong to anyone in particular. No one would notice if you took something.
+There is a workbench stained a slight red at the rear of the shack. You&#39;ve never known the shack to belong to anyone in particular. No one would notice if you took something.
 
 There is a knife sitting on the edge of the bench. It may come in handy.
 
@@ -180,11 +229,11 @@ There is a knife sitting on the edge of the bench. It may come in handy.
 [[Back to Village Square -&gt;Village Square]] 
 
 (set: $knife to true)
-(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="18" name="Choose Oranges" tags="" position="129,1006" size="100,100">The grocery stands are always busy, no matter what time of the day.
+(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="17" name="Choose Oranges" tags="minor" position="129,1006" size="100,100">The grocery stands are always busy, no matter what time of the day.
 
 You push through the crowd to look at the produce. The tender knows you well, and starts offering the usual food to you. Apples, carrots, potatoes.
 
-A small bag of oranges on a shelf closest to you catches your eye. Oranges are rarer around these parts, and more costly. You have just enough money to spend. They could be a good bargaining tool.
+A small bag of oranges on a shelf closest to you catches your eye. Oranges are rare around these parts, and more costly. You have just enough money to spend. They could be a good bargaining tool.
 
 On display, a small bag of oranges catches your eye. Oranges are rarer around these parts, and more costly. You have just enough money to spend. They could be a good bargaining tool.
 
@@ -193,7 +242,7 @@ On display, a small bag of oranges catches your eye. Oranges are rarer around th
 [[Back to Village Square -&gt;Village Square]] 
 
 (set: $oranges to true)
-(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="19" name="Loan Money" tags="" position="145,1305" size="100,100">The bank smells like perfume.
+(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="18" name="Loan Money" tags="minor" position="145,1305" size="100,100">The bank smells like perfume.
 
 A banker sits dressed formally behind a sheet of glass. It is unusual for a person to be dressed so officially in the village. Being money-driven is not a quality admired by villagers.
 
@@ -206,7 +255,7 @@ You could talk to the banker and take out a loan. The village will surely be ind
 [[Back to Village Square -&gt;Village Square]] 
 
 (set: $money to true)
-(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="20" name="Choose Rope" tags="" position="832,1336" size="100,100">The familiar smell of your home greets you as you enter.
+(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="19" name="Choose Rope" tags="minor" position="832,1336" size="100,100">The familiar smell of your home greets you as you enter.
 
 The window you left open blows a cool breeze through the hut. It&#39;s small, only three rooms, but it&#39;s a home nonetheless.
 
@@ -220,9 +269,9 @@ A rope hangs at the back of the cabinet. Nothing compares to a rope when it come
 [[Back to Village Square -&gt;Village Square]] 
 
 (set: $rope to true)
-(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="21" name="Choose Totem" tags="" position="882,1013" size="100,100">The temple is quiet and mostly empty. Only a few people are left praying silently.
+(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="20" name="Choose Totem" tags="minor" position="882,1013" size="100,100">The temple is quiet and mostly empty. Only a few people are left praying silently.
 
-The walls are covered with paintings and display cases containing rare artifacts collected by the village throughout history.
+The walls are covered with paintings and display cases containing rare artefacts collected by the village throughout history.
 
 There is a shelf towards the back of the temple with some totems on it.
 
@@ -232,8 +281,8 @@ A totem is said to fulfil a wish when the user is in dire need. Who knows what m
 
 [[Back to Village Square -&gt;Village Square]] 
 
-(set: $totum to true)
-(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="22" name="Back at Willem&#39;s" tags="" position="1482,76" size="100,100">Willem is sitting at the table, a candle swaying in the centre. A map of the flagship is spread before him. He looks up, smiles, and beckons you to look at the map.
+(set: $totem to true)
+(set: $counter to it +1)</tw-passagedata><tw-passagedata pid="21" name="Back at Willem&#39;s" tags="" position="1482,76" size="100,100">Willem is sitting at the table, a candle swaying in the centre. A map of the flagship is spread before him. He looks up, smiles, and beckons you to look at the map.
 
 &quot;Here is where they keep their coffers,&quot; he says, pointing a finger toward the rear of the ship. &quot;It&#39;s a few levels down, presumably so it&#39;s secure. (if: $Hearts is true)[Once we&#39;ve convinced the board, this is where the Pearls should come from. I&#39;ll monitor it, and if anything goes awry, I&#39;ll fall back to plan B.&quot;]
 (else-if: $Steal is true)[This is where we&#39;ll be heading once we&#39;re on the ship. There&#39;s an emergency exit to the stern over here, just in case we have to fall back to plan B.&quot;]
@@ -245,7 +294,7 @@ Willem smiles. &quot;Yeah, improvise. Hopefully it won&#39;t come to that.&quot;
 You nod, and then yawn. It has been a big day. Suddenly, you remember the items you gathered today.
 
 [[Show him now so he can plan to use them-&gt;Now]]
-[[Show him tomorrow and catch more sleep-&gt;Tomorrow]]</tw-passagedata><tw-passagedata pid="23" name="Now" tags="" position="1407,226" size="100,100">You spread your loot out on the table.
+[[Show him tomorrow and catch more sleep-&gt;Tomorrow]]</tw-passagedata><tw-passagedata pid="22" name="Now" tags="" position="1407,226" size="100,100">You spread your loot out on the table.
 
 &quot;Interesting,&quot; he says. &quot;I&#39;m sure it will all come in handy.&quot; Willem pauses, staring at the items deep in thought. (if: $knife is true)[Finally, he picks up the knife and turns it over. &quot;This is an old, rusty girl isn&#39;t it? Why the knife?&quot; he asks, eyeballing you as he turns the blade over in his hands.
 
@@ -263,7 +312,7 @@ Fair enough,&quot; Willem says, and slowly puts the totem back on the table.&quo
 
 You agree, lay on the spare matress set out on the floor, and go to sleep. It doesn&#39;t come easily, but eventually the morning arrives and you get ready to go.
 
-[[Set sail.-&gt;Journey There]] </tw-passagedata><tw-passagedata pid="24" name="Tomorrow" tags="" position="1557,226" size="100,100">You plonk yourself down on the spare matress laid out on the floor and try to sleep. You never seem to realise how nervous for something you are until you try to sleep. Rest doesn&#39;t come easy.
+[[Set sail.-&gt;Journey There]] </tw-passagedata><tw-passagedata pid="23" name="Tomorrow" tags="" position="1557,226" size="100,100">You plonk yourself down on the spare matress laid out on the floor and try to sleep. You never seem to realise how nervous for something you are until you try to sleep. Rest doesn&#39;t come easy.
 
 In the morning, you spread your loot out on the table.
 
@@ -281,7 +330,7 @@ In the morning, you spread your loot out on the table.
 
 Fair enough,&quot; Willem says, and slowly puts the totem back on the table.&quot;] &quot;Well, I suppose we should get ready to go.&quot;
 
-[[Get ready to sail.-&gt;Journey There]]</tw-passagedata><tw-passagedata pid="25" name="Journey There" tags="" position="1475,399" size="100,100">The journey is smooth. You and Willem take a motorboat moored at the docks by the fisherman&#39;s hut. The motor spatters at first, but the boat glides along the sea with ease once it starts moving. It is a calm day and the sun warms the deck of the boat.
+[[Get ready to sail.-&gt;Journey There]]</tw-passagedata><tw-passagedata pid="24" name="Journey There" tags="major" position="1475,399" size="100,100">The journey is smooth. You and Willem take a motorboat moored at the docks by the fisherman&#39;s hut. The motor spatters at first, but the boat glides along the sea with ease once it starts moving. It is a calm day and the sun warms the deck of the boat.
 
 Ripple and Co&#39;s flagship is bigger than you thought it would be. It was easily the size of a warship, and its steel was painted charcoal without a speck of colour in sight. As you grow closer its shape looms above the two of you, and you can see figures watching your approach, rifles in hand. A man leans over the railing and yells.
 
@@ -291,63 +340,111 @@ You look to Willem. You didn&#39;t think of the possibility of being questioned 
 
 &quot;We&#39;re here for the routine maintenance of the ship,&quot; Willem answers. The man sizes the pair of you up, and then gives a thumbs up, throwing down a ladder.
 
-[[Climb the Ladder]]</tw-passagedata><tw-passagedata pid="26" name="Climb the Ladder" tags="" position="1069,564" size="100,100">The man with the rifle helps the two of you up and looks you up and down.
+[[Climb the Ladder]]</tw-passagedata><tw-passagedata pid="25" name="Climb the Ladder" tags="intense" position="1069,564" size="100,100">The man with the rifle helps the two of you up and looks you up and down.
 
-(if: $money is true)[You realise acting quickly and thinking on your feet is key to avoiding suspicion.
+(if: $money is true)[You realise that acting quickly and thinking on your feet is key to avoiding suspicion.
 
-&quot;Take us to the captain,&quot; you say. &quot;There&#39;s a ventilation problem on the Bridge.&quot;
+&quot;Take us to the captain,&quot; you say. &quot;There&#39;s a ventilation problem on the bridge.&quot;
 
 &quot;I&#39;m not aware of this issue,&quot; the man says. You feel the weight of the money in your pocket. You might be able to bribe him to get to the captain.
 
 [[Use the money -&gt;Pos B]]
-[[Don&#39;t use the money -&gt;Pos B OP2]]]
-(else:)[You realise acting quickly and thinking on your feet is key to avoiding suspicion.
+[[Don&#39;t use the money -&gt;Pos B OP2]]](else:)[You realise acting quickly and thinking on your feet is key to avoiding suspicion.
 
 &quot;Take us to the captain,&quot; you say. &quot;There&#39;s a ventilation problem on the Bridge.&quot;
 
 &quot;I&#39;m not aware of this issue,&quot; the man says. Willem suddenly steps forward and grabs the man, heaving him overboard. A few seconds pass before you hear the splash. You look at Willem in shock. If the man survives, it won&#39;t take long until someone hears him yelling.
 
 [[Question Willem -&gt;Neg A]]
-[[No Time to Lose -&gt;Neg A OP2]]]</tw-passagedata><tw-passagedata pid="27" name="Pos B" tags="" position="1454,559" size="100,100">You pull out the money. The man&#39;s expression changes instantly.
+[[No Time to Lose -&gt;Neg A OP2]]]</tw-passagedata><tw-passagedata pid="26" name="Pos B" tags="intense" position="1324,560" size="100,100">You pull out the money. The man&#39;s expression changes instantly.
 
 &quot;Why didn&#39;t you say so? I would&#39;ve let you through without a fuss,&quot; he winks.
 
-Willem takes the opportunity to grab your arm and go, staying quiet while the man starts counting the money. Towards the centre of the ship, there&#39;s a stairwell with a sign: //To the Bridge//. You try the handle. It&#39;s locked. (if: $rope is true)[Then, you remember the rope.
+Willem takes the opportunity to grab your arm and go, staying quiet while the man starts counting the money. Towards the centre of the ship, there&#39;s a door to a stairwell with a sign: //To the Bridge//. You try the handle. It&#39;s locked. (if: $rope is true)[Then, you remember the rope.
 
 [[Use the rope-&gt;Pos C]]](else:)
 
-[Willem swears. &quot;I&#39;ll go around. Wait here.&quot; Before long, he lets you inside with a grin on his face.
+[Willem swears. &quot;I&#39;ll go around. Wait here.&quot; 
 
-[[Go upstairs-&gt;Neg B]]]</tw-passagedata><tw-passagedata pid="28" name="Neg A" tags="" position="1088,922" size="100,100">(if: $rope is true)[Go to [[Neg B]]]
-(else:)[Go to [[Wro A]]</tw-passagedata><tw-passagedata pid="29" name="Neg B" tags="" position="1458,930" size="100,100">(if: $totem is true)[Go to [[Neg C]]
-(else:)[Go to [[Wro B]]]</tw-passagedata><tw-passagedata pid="30" name="Pos C" tags="" position="1800,549" size="100,100">(set: $posC to true)Willem boosts you up to a ledge above so you can tie the rope to a light that juts out of the ship. Willem then pulls himself up.
+Shortly after he leaves, the door opens from the inside, but it&#39;s not Willem. A stout sailor walks out and tips his hat to you. When he turns around, you catch the door just before it shuts and walk through.
 
-Beside you is a window that has been left open, leading into what appears to be a hallway. Willem looks to you, and you shrug. He pops his head through and then hauls himself through, landing with a thud.
+[[Go upstairs-&gt;Neg B]]]</tw-passagedata><tw-passagedata pid="27" name="Neg A" tags="intense" position="1069,798" size="100,100">&quot;Why did you do that?&quot; you say. &quot;That could blow our cover.&quot;
+
+&quot;How did you think to get past, then?&quot; he shrugs. &quot;Who cares, we haven&#39;t got much time anyway.&quot; With that, he bolts off towards the centre of the ship. You follow, angry with his decision.
+
+Quickly, he finds a trapdoor on the ship. Looking down, the ladder is in disrepair.
+
+(if: $rope is true)[Willem taps you. &quot;Pass us the rope. I&#39;ll climb down. Find the captain as soon as you can. You know what to do.&quot; You stand there for a second, but you know there&#39;s no choice. You give him the rope and he ties it to the top of the trapdoor. He gives it a test pull, and then leaps out of sight.
+
+You walk with purpose until you find a door leading to a stairway that goes up in the direction of the ship&#39;s bridge. That is where you want to go to find the captain.
+
+[[Go into the stairwell.-&gt;Neg B]]]
+(else:)[&quot;Go on, you&#39;re up,&quot; Willem says. You shake your head and stand firm, and Willem rolls his eyes. &quot;You better get to the captain then, coward. You&#39;ll pay for this,&quot; he says, his tone like ice. Then, he jumps down out of sight.
+
+[[He jumps down-&gt;Wro A]]]</tw-passagedata><tw-passagedata pid="28" name="Neg B" tags="intense" position="1324,860" size="100,100">The stairs are steep and ring loudly as you stomp up. If anyone is up the top, they will hear you coming for sure. The railing is cold and strangely moist, but you need to grip it to keep you from losing your balance.
+
+Once at the top, a guard immediately confronts you and asks for identification. You tap on each of your pockets and put on a face of exasperation, unable to find any. You take off your bag to start digging around, but the guard stops you with the butt of his gun.
+
+&quot;Turn around,&quot; he commands. &quot;Don&#39;t move.&quot;
+
+(if: $totem is true)[The totem is in one of your hands. You managed to grab it when unzipping your bag. This could be your only chance to use it.
+
+[[Use the totem-&gt;Neg C]]]
+(else:)[You yield to the guard with no escape from the situation, and he shoves you towards a door.
+
+[[Go through the door-&gt;Wro B]]]
+
+(set: $negB to true)</tw-passagedata><tw-passagedata pid="29" name="Pos C" tags="intense" position="1600,567" size="100,100">(set: $posC to true)Willem boosts you up to a ledge above so you can tie the rope to a light that juts out of the ship. Willem then pulls himself up.
+
+Beside you is a window that has been left open, leading into what appears to be a hallway. Willem looks to you, and you shrug. He pops his head through and then hauls himself inside, landing with a thud.
 
 You follow him, and it is only when you hit the metal floor that you notice the two guards, looking perplexed behind the sights of their rifles. Willem has his hands up, and slowly the guards approach.
 
-So far you can&#39;t believe your luck with the items you brought, but nothing could have prepared you for this situation.
+So far you can&#39;t believe your luck with the items you brought, and you and Willem are working well together, but nothing could have prepared you for this situation.
 
 (if: $totem is true)[Unless...
 
 [[Use the totem-&gt;Pos D]]]
-(else:)[[[Leave with the guards-&gt;Neg C]]]</tw-passagedata><tw-passagedata pid="31" name="Pos D" tags="" position="2223,560" size="100,100">You bring out the totem. You close your eyes, focusing, and feel your hand go warm. You open your eyes and a door flies open down the hallway. The guards snap around as a man wearing a balaclava steps out, takes one look around, and bolts back through the door.
+(else:)[The guards separate you and Willem, pushing you toward a door whilst Will is pinned against a wall. 
+
+[[Leave with the guards-&gt;Neg C]]]</tw-passagedata><tw-passagedata pid="30" name="Pos D" tags="intense" position="1874,568" size="100,100">(set: $posD to true)You bring out the totem. You close your eyes, focusing, and feel your hand go warm. You open your eyes and a door flies open down the hallway. The guards snap around as a man wearing a balaclava steps out, takes one look around, and bolts back through the door.
 
 &quot;There he is!&quot; you shout. &quot;We were trying to get away from him!&quot;
 
-The guards don&#39;t hesitate and bolt down the corridor with their rifles raised. You look back in your hand and the totem is slowly turning to dust. The robber was imaginary.
+The guards don&#39;t hesitate and bolt down the corridor with their rifles raised. You open your hand and the totem slowly turns to sawdust. The robber was imaginary.
 
 You and Willem jog to a door with //Bridge// written above it. There&#39;s a swipe pass that opens it.
 
 &quot;Okay, you know what to do?&quot; Willem asks, and I nod. He gives me a quick pat on the back and then rushes off to work on our escape plan. 
 
-Without a knife, though, finding a pass for the door might be hard. You could kick it, but it would make too much noise.
+Without a knife, though, finding a pass for the door might be hard. You could kick it down, but it would make too much noise.
 
-[[Look around for a pass.-&gt;Neg D]]
-[[Find the soldiers. -&gt;Neg D OP2]]</tw-passagedata><tw-passagedata pid="32" name="Neg C" tags="" position="1826,940" size="100,100">(if: $knife is true)[Go to [[Neg D]]]
-(else:)[Go to [[Wro C]]]</tw-passagedata><tw-passagedata pid="33" name="Neg D" tags="" position="2213,909" size="100,100">You look through the windows on narrow doors and try their handles. All of them are locked, and it&#39;s mostly dark inside the rooms.
+[[Look around for a pass.-&gt;Neg D]]</tw-passagedata><tw-passagedata pid="31" name="Neg C" tags="intense" position="1597,861" size="100,100">(if: $posC is true)[You realise that the guard has taken you into the bridge, right where you want to be. A man has a telephone to his ear as you are moved into the room. He is intently reading a radar that flashes in front of him. He looks away briefly to point the guard away, before looking back again. He is the only other person in the room.
 
-It occurs to you that the guards would have had a pass. You check the floor and on the floor is an ID card. Could this work?
+(if: $knife is true)[The guard walks you to another door, but before he can push you through, you wrestle him off balance. It leaves you just enough time to stuff your hand in your bag and bring out a knife.
+
+[[Charge at the soldier-&gt;Neg D]]]
+(else:)[The guard walks you towards another door at the back of the room. The door is slightly ajar, and you can see a light is on inside.
+
+&quot;Where are we going?&quot; you ask him. The guard doesn&#39;t say anything, but you persist. &quot;What are you doing with my friend?&quot;
+
+When he doesn&#39;t answer you a second time, you grow restless.
+
+[[Try to wiggle free-&gt;Wro C]]]]
+
+(else:)[You close your eyes and focus. In your mind, a window smashes down the hallway. The totem feels warm in your hand, and as you open your eyes, you see glass shatter down the other end of the hall.
+
+The guard wheels around at the sound and begins sneaking down the hall with his rifle raised. For the moment, you are forgotten.
+
+Beside you is a door with //Bridge// written above it. There&#39;s a swipe pass that opens it, but you don&#39;t have one.
+
+(if: $knife is true)[Suddenly, you remember the knife. You don&#39;t enjoy threatening people, but it might be the only way to get in through the door.
+
+[[Use the knife-&gt;Neg D]]]
+(else:)[[Look around-&gt;Wro C]]
+(set: $negC to true)]</tw-passagedata><tw-passagedata pid="32" name="Neg D" tags="intense" position="1874,862" size="100,100">(if: $posD is true)[You look through the windows on narrow doors and try their handles. All of them are locked, and it&#39;s mostly dark inside the rooms.
+
+It occurs to you that the guards would have had a pass. You check the floor where the guards had turned around, and sure enough there&#39;s an ID card. Could this work?
 
 You try it in the door. It opens.
 
@@ -357,28 +454,205 @@ You go to it, but what should you say? With the oranges, it would have been easy
 
 Looks like you&#39;re going in cold.
 
-[[Speak to the captain-&gt;Wro D]]</tw-passagedata><tw-passagedata pid="34" name="Wro A" tags="" position="1103,1280" size="100,100">(set: $wroA to true)
-[[Use Totem -&gt;Wro B]]</tw-passagedata><tw-passagedata pid="35" name="Wro B" tags="" position="1458,1277" size="100,100">Go to [[Wro C]]</tw-passagedata><tw-passagedata pid="36" name="Wro C" tags="" position="1814,1274" size="100,100">Go to [[Wro D]]</tw-passagedata><tw-passagedata pid="37" name="Wro D" tags="" position="2195,1277" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="38" name="Pos B OP2" tags="" position="1458,665" size="100,100">The man raises his rifle and demands you explain who really are. 
+[[Speak to the captain-&gt;Wro D]]]
+(else-if: $posC is true)[You get to the guard just before he recovers and swings his gun around. You try to knock the gun from his hands but he is holding it firmly, so you use the knife to slash one of his hands, forcing him to drop it. You kick it away, and then push the guard backwards to prevent him from grappling the knife away from you. The guard&#39;s hands reach straight for his pocket radio, but you lunge forward and stab at the radio, puncturing it.
+
+Finally, you advance towards him once more and tackle him back through the door you came through. The guard falls with a grunt, but you keep your feet and reenter the bridge before closing the door behind you, locking it.
+
+The man with the telephone&#39;s mouth gapes open but you show him the knife again to keep him away. The gun remains on the floor, so you pick it up and look to the room with the ajar door. Surely, the captain must be through there.
+
+[[Enter the room-&gt;Wro D]]]
+(else:)[As the guard slowly sneaks forward, you come up behind him. The groaning of the ship around you drowns out your soft footsteps, and soon you are upon him.
+
+You put the knife to his throat and command him to drop his weapon. He complies, and the gun clatters to the ground. You kick it away down the hall and reach across him to find the pass clipped onto his kevlar. You take it and push him forwards, turning to run back to the bridge door. You hear the guard sprint towards his gun behind you, but before he can turn around to shoot, you disappear through the door and close it behind you.
+
+The bridge is empty except a man talking through a phone attached to the ship. He looks at you, so you mouth &quot;captain&quot; to him. He points at another door that is slightly ajar.
+
+You go to it, but what should you say? With the oranges, it would have been easy to begin with a friendly gesture, but without them you have little excuse to talk to the captain.
+
+Looks like you&#39;re going in cold.
+
+[[Speak to the captain-&gt;Wro D]]]</tw-passagedata><tw-passagedata pid="33" name="Wro A" tags="intense" position="1071,1111" size="100,100">Your relationship with Willem is strained. You wonder whether he is still reliable, but you can&#39;t abandon him now. After all, he&#39;s your friend.
+
+You walk with purpose until you find a door leading to a stairway that goes up in the direction of the ship&#39;s bridge. That is where you want to go to find the captain.
+
+You open the door and move up the stairs. They&#39;re steep and ring loudly as you stamp on them. At the top, you find yourself in a hallway. A guard confronts you.
+
+&quot;I&#39;m here for the maintenance of the bridge,&quot; you say, but the guard shakes his head and asks for identification. He&#39;s onto you.
+
+[[Use your totem -&gt;Wro B]]
+(set: $wroA to true)</tw-passagedata><tw-passagedata pid="34" name="Wro B" tags="intense" position="1322,1106" size="100,100">(if: $negB is true)[Inside, a man has a telephone to his ear and stares intently at a flashing radar in front of him. He looks away briefly to point the guard away, before looking back again. He is the only one in the room.
+
+The guard walks you to another door, but before he can push you through, you wrestle him off balance. It leaves you just enough time to stuff your hand in your bag and bring out a knife.
+
+[[Use the knife-&gt;Wro C]]](else:)[You close your eyes and focus. In your mind, a window smashes down the hallway. The totem feels warm in your hand, and as you open your eyes, you see glass shatter down the other end of the hall.
+
+The guard wheels around at the sound and begins sneaking down the hall with his rifle raised. For the moment, you are forgotten.
+
+Beside you is a door with //Bridge// written above it. There&#39;s a swipe pass that opens it, but you don&#39;t have one.
+
+Suddenly, you remember the knife. You don&#39;t enjoy threatening people, but it might be the only way to get in through the door.
+
+[[Use the knife-&gt;Wro C]]]</tw-passagedata><tw-passagedata pid="35" name="Wro C" tags="intense" position="1595,1100" size="100,100">(if: $negB is true and $totem is true)[You look through the windows on narrow doors and try their handles. All of them are locked, and it&#39;s mostly dark inside the rooms.
+
+It occurs to you that the guards would have had a pass. You check the floor where the guards had turned around, and sure enough there&#39;s an ID card. Could this work?
+
+You try it in the door. It opens.
+
+You step inside. There&#39;s a man holding a phone attached to the ship to his ear. He looks at you, so you mouth &quot;captain&quot; to him. He points at another door that is slightly ajar.
+
+You go to it, but what should you say? You pull out the bag of oranges. They might be a good way to get onto the captain&#39;s good side, making things tremendously easier.
+
+[[Speak to the captain-&gt;Wro D]]](else-if: $negB is true)[You get to the guard just before he recovers and swings his gun around. You try to knock the gun from his hands but he is holding it firmly, so you use the knife to slash one of his hands, forcing him to drop it. You kick it away, and then push the guard backwards to prevent him from grappling the knife away from you. The guard&#39;s hands reach straight for his pocket radio, but you lunge forward and stab at the radio, puncturing it.
+
+Finally, you advance towards him once more and tackle him back through the door you came through. The guard falls with a grunt, but you keep your feet and reenter the bridge before closing the door behind you, locking it.
+
+The man with the telephone&#39;s mouth gapes open but you show him the knife again to keep him away. The gun remains on the floor, so you pick it up and look to the room with the ajar door. Surely, the captain must be through there.
+
+You pull out the bag of oranges. They might be a good way to get onto the captain&#39;s good side, making things tremendously easier.
+
+[[Enter the room-&gt;Wro D]]](else-if: $wroA is true)[As the guard slowly sneaks forward, you come up behind him. The groaning of the ship around you drowns out your soft footsteps, and soon you are upon him.
+
+You put the knife to his throat and command him to drop his weapon. He complies, and the gun clatters to the ground. You kick it away down the hall and reach across him to find the pass clipped onto his kevlar. You take it and push him forwards, turning to run back to the bridge door. You hear the guard sprint towards his gun behind you, but before he can turn around to shoot, you disappear through the door and close it behind you.
+
+The bridge is empty except a man talking through a phone attached to the ship. He looks at you, so you mouth &quot;captain&quot; to him. He points at another door that is slightly ajar.
+
+You go to it, but what should you say? You pull out the bag of oranges. They might be a good way to get onto the captain&#39;s good side, making things tremendously easier.
+
+[[Speak to the captain-&gt;Wro D]]] (else-if: $posC is true)[You get to the guard just before he recovers and swings his gun around. You try to knock the gun from his hands but he is holding it firmly, so you use the knife to slash one of his hands, forcing him to drop it. You kick it away, and then push the guard backwards to prevent him from grappling the knife away from you. The guard&#39;s hands reach straight for his pocket radio, but you lunge forward and stab at the radio, puncturing it.
+
+Finally, you advance towards him once more and tackle him back through the door you came through. The guard falls with a grunt, but you keep your feet and reenter the bridge before closing the door behind you, locking it.
+
+The man with the telephone&#39;s mouth gapes open but you show him the knife again to keep him away. The gun remains on the floor, so you pick it up and look to the room with the ajar door. Surely, the captain must be through there.
+
+You pull out the bag of oranges. They might be a good way to get onto the captain&#39;s good side, making things tremendously easier.
+
+[[Enter the room-&gt;Wro D]]]
+</tw-passagedata><tw-passagedata pid="36" name="Wro D" tags="major" position="1879,1100" size="100,100">You open the door and see that inside is a simple meeting room. A table stretches down the length of the room. Windows on each wall means the room is brightly lit. The captain sits at the head of the table, looking closely at a map with reading glass resting on his nose.
+
+You close the door behind you and sit down the other end of the table. (if: $oranges is true)[You then open the bag of oranges and roll each orange up the table, one by one. This gets the captain&#39;s attention.
+
+&quot;Oh, thanks. That&#39;s very thoughtful... and who might you be?&quot;](else:)[You clear your throat to get the captain&#39;s attention. He looks up from the map like he&#39;s been pulled out of a daze.
+
+&quot;And who might you be?&quot; he asks.]
+
+(if: $Sabotage is true)[&quot;An enemy,&quot; you say, staring straight down the table. 
+
+The captain chuckles, still preoccupied with his map. &quot;Is that so?&quot; You stand back up and dig around your bag. You take out an exposive and stick it to the floor halfway up the room. Next, you walk back to where you were sitting, stand on the chair and stick another to the ceiling. &quot;Okay, okay,&quot; the captain says, now attentive.
+
+&quot;I warn you, it&#39;s not just me onboard this ship sticking explosives in every corner. We are highly organised and prepared to sink this ship if you don&#39;t do what we say,&quot; you warn.
+
+&quot;How do I know you&#39;re telling the truth?&quot; he says. &quot;You could easily be on your own and I wouldn&#39;t know the better.&quot;
+
+There&#39;s some nerve on this captain. He&#39;s still challenging you like you are another crew member. Still, you are determined to get what you want, even if it means simply destroying the ship. If Willem was here, he would be angry.
+
+[[Act agressively.-&gt;bad]]
+[[Keep calm.-&gt;good]]](else-if: $Hearts is true)[&quot;A friend,&quot; you reply. &quot;I&#39; m a spokesperson for the village that&#39;s settled on the coast to the South of this flagship.&quot;
+
+&quot;Ah, yes I know the one,&quot; he says. He doesn&#39;t sound overly concerned.
+
+&quot;Yes. Now, I&#39;ll be honest with you. My village is extremely concerned about the state of the sea and its clams. Clam fishing is an ancient practice here, but recently we&#39;ve noticed there&#39;s few left, and soon they will be gone. We think it would be in your best interest to cease fishing in this sea, and otherwise the responsible course of action to help preserve our culture.
+
+The captain is quiet for a moment, and then chuckles. &quot;If you think I have any agency over Ripple&#39;s fishing... you would be very wrong my friend.&quot;
+
+You start to quietly stew in your seat. It&#39;s obvious he doesn&#39;t care enough to do something about it.
+
+[[Act agressively.-&gt;bad]]
+[[Keep calm.-&gt;good]]](else:)[&quot;A concerned stakeholder,&quot; you say. If you can convince him you own a share of Ripple, he might be inclined to listen to you buy time.
+
+&quot;Oh? And those concerns must be very important for you to have access to the bridge of this ship.&quot; 
+
+&quot;Of course,&quot; you reply, keeping to the script you have in your head. &quot;I have a friend that lives in the village South of here, and only recently it came to my attention that they value this sea&#39;s Pearls there as sacred and part of their identities. As a result, I have considered the impact Ripple has on the village and decided to sell my shares unless Ripple shifts their focus away from the sea&#39;s clams.&quot;
+
+The captain laughs. &quot;Now tell me, why should I care?&quot;
+
+[[Act agressively.-&gt;bad]]
+[[Keep calm.-&gt;good]]]</tw-passagedata><tw-passagedata pid="37" name="Pos B OP2" tags="intense" position="1324,665" size="100,100">The man raises his rifle and demands you explain who really are. 
 
 &quot;You would have badges if you were here for repairs.&quot; The money falls from your pocket as you take a step back. The man sees it, grabs it, and laughs. &quot;Well, why didn&#39;t you say so? I would&#39;ve let you through without a fuss with this,&quot; he winks.
 
 Willem takes the opportunity to grab your arm and go, staying quiet while the man starts counting the money. Towards the centre of the ship, there&#39;s a stairwell with a sign: //To the Bridge//. You try the handle. It&#39;s locked. (if: $rope is true)[Then, you remember the rope.
 
-[[Throw up the rope-&gt;Pos C]]](else:)
+[[Throw up the rope-&gt;Pos C]]]
+(else:)
 
-[Willem swears. &quot;I&#39;ll go around. Wait here.&quot; Before long, he lets you inside with a grin on his face.
+[Willem swears. &quot;I&#39;ll go around. Wait here.&quot; 
 
-[[Go upstairs-&gt;Neg B]]]</tw-passagedata><tw-passagedata pid="39" name="Neg A OP2" tags="" position="1091,1035" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="40" name="Neg D OP2" tags="" position="2213,1022" size="100,100">You go to the door that has been left open. The soldiers are still inside, but looking confused, checking the only closet in the room for hidden doors the man could have disappeared through.
+Shortly after he leaves, the door opens from the inside, but it&#39;s not Willem. A stout sailor walks out and tips his hat to you. When he turns around, you catch the door just before it shuts and walk through.
 
-It occurs to you that the guards would have a pass. You clear your throat and tell them you should report the man to the captain. One of the guards sigh and agree. You follow him to the bridge door, and he lets you inside.
+[[Go upstairs-&gt;Neg B]]]</tw-passagedata><tw-passagedata pid="38" name="Neg A OP2" tags="intense" position="1068,906" size="100,100">The two of you run off, feet thumping on the deck. You wonder how many men have fallen overboard off this ship, and how many survive. It&#39;s a long drop down, and the deck is slippery. You feel a little sick.
 
-Inside, there&#39;s a man holding a phone attached to the ship to his ear. He looks at you, so you mouth &quot;captain&quot; to him. He points at another door that is slightly ajar.
+Willem looks determined though. A bead of sweat drips down his forehead.
 
-You go to it, but what should you say to the captain? With the oranges, it would have been easy to begin with a friendly gesture, but without them you have little excuse to talk to the captain.
+Soon he finds a trapdoor leading down into the depths of the ship. Looking down, the ladder is in disrepair.
 
-Looks like you&#39;re going in cold.
+(if: $rope is true)[Willem taps you. &quot;Pass us the rope. I&#39;ll climb down. Find the captain as soon as you can. You know what to do.&quot; You stand there for a second, but you know there&#39;s no choice. You give him the rope and he ties it to the top of the trapdoor. He gives it a test pull, and then leaps out of sight.
 
-[[Speak to the captain-&gt;Wro D]]</tw-passagedata></tw-storydata>
+You walk with purpose until you find a door leading to a stairway that goes up in the direction of the ship&#39;s bridge. That is where you want to go to find the captain.
+
+[[Go into the stairwell.-&gt;Neg B]]](else:)[&quot;Go on, you&#39;re up,&quot; Willem says. You shake your head and stand firm, and Willem rolls his eyes. &quot;You better get to the captain then, coward. You&#39;ll pay for this,&quot; he says, his tone like ice.
+
+[[He jumps down-&gt;Wro A]]]</tw-passagedata><tw-passagedata pid="39" name="good" tags="major" position="1737,1241" size="100,100">You take a deep breath. There&#39;s no need to act irrationally. (if: $Sabotage is true)[At this very moment, Willem is continuing to plant explosives around the ship. You have the upper hand, and if the captain remains in denial, he will pay the ultimate price.](else-if: $Hearts is true)[You may convince him yet. Guards will be coming any minute now, but the preservation of the sea is worth more than your life. Let the captain see that.](else:)[Willem will already be stealing the Pearls. The longer you can distract the captain and keep him from giving orders, the better.]
+
+(if: $Steal is true)[&quot;Look, I just think there are options more sustainable, and equally as lucrative,&quot; you say.
+
+&quot;Ha!&quot; the captain shouts. &quot;Now I //know// you&#39;re lying. What a load of crap. You don&#39;t sound like you know remotely what you&#39;re talking about.&quot;
+
+You feel your cheeks turning red. &quot;What? You don&#39;t believe me?&quot; you say, scraping for something to say.
+
+&quot;No, I don&#39;t,&quot; the captain says. He leans forward. &quot;So, what are you //really// doing here?&quot;
+
+A radio crackles to life in your backpack. Willem&#39;s voice pierces the static. &quot;Now. Go!&quot;
+
+You drop everything where you stand.](else:)[&quot;All I&#39;m asking,&quot; you say, &quot;is that you make this easy for the two of us. If you quit your operations and hand over the Pearls, we&#39;ll leave in peace.&quot; Your mind drifts back to what you said to Willem back in his shack. &quot;I&#39;m not doing this for me, I&#39;m doing this for my village,&quot; you add.
+
+The captain frowns. His eyes settle on the table in front of him, deep in thought. Finally, he looks back at you with ice in his eyes. &quot;No. We harvest the Pearls for a good cause. I will not hand them over to a bunch of peasants.&quot;
+
+A radio crackles to life in your backpack. Willem&#39;s voice pierces the static. &quot;Now. Go!&quot;
+
+&quot;Suit yourself,&quot; you say, dropping everything.]
+
+(if: $wroA is true)[ [[Run.-&gt;finale 1]]]
+(else-if: $posC is true)[ [[Run.-&gt;finale 2]]]
+(else:)[ [[Run.-&gt;finale 3]]]</tw-passagedata><tw-passagedata pid="40" name="bad" tags="major" position="1993,1238" size="100,100">It takes everything to contain your rage. You want to yell at him, and tell him about everything you&#39;ve done to get here. Tell him about how he makes the village suffer. Show him the Pearls on your wrist and everything they mean to you.
+
+(if: $Sabotage is true)[&quot;I don&#39;t give a damn what you think. If you want to take that risk, it&#39;s up to you. Go down with the rest of the ship and take your crew members down with you. For everything you&#39;ve done, it&#39;s half of what you deserve.&quot; The captain actually begins to look slightly frightened. The look on his face makes you want to smile. You resist the temptation, instead holding up your wrist. &quot;My family and I earned these. You simply exploit. You fish up every clam in the sea just to sell magic for cheap. The worst part is, you have no remorse.&quot;
+
+The captain gets up off his seat and comes towards you. Suddenly, he is the angry one. &quot;You think I haven&#39;t worked hard for everything I have, peasant? Is that what you think? I&#39;ll show you...&quot;
+
+A radio crackles to life in your backpack. Willem&#39;s voice pierces the static. &quot;Now. Go!&quot;](else-if: $Hearts is true)[&quot;Of course you have agency!&quot; you say, exasperated. &quot;You have control of the entire ship, man. Sure, you&#39;ll lose your job, but at least you can rest easily knowing you&#39;ve saved the culture of hundreds of people. Don&#39;t sit here and tell me you don&#39;t have control over this or that. Ripple has convinced you of that and you&#39;re buying into it.&quot;
+
+&quot;And maybe I am,&quot; the captain says back, looking relaxed. &quot;Maybe, this whole business is good for me, and my family. Besides, if I sailed off with this ship, Ripple would replace it with another instantly. It wouldn&#39;t matter what I did.&quot;
+
+&quot;You&#39;re gutless,&quot; you say. &quot;A coward.&quot;
+
+Suddenly, your radio crackles to life in your backpack. Willem&#39;s voice pierces the static. &quot;We need to go. We&#39;re out of time.&quot;](else:)[&quot;You should care because people like me pay your wages,&quot; you growl. &quot;I&#39;m telling you now, if this company and its employees don&#39;t make some changes soon, there&#39;ll be no more money provided for captaining this ship.&quot;
+
+&quot;I haven&#39;t heard anything. Besides, the bosses make those decisions. Go ahead, sell your shares. It doesn&#39;t bother me. Just get off my ship.&quot;
+
+&quot;You selfish cow,&quot; you say.
+
+The captain opens his mouth to respond, but is cut off by a crackling radio in your backpack. Willem&#39;s voice pierces the static. &quot;Now. Go!&quot;]
+
+You drop everything where you&#39;re standing.
+
+(if: $wroA is true)[ [[Run.-&gt;finale 1]]]
+(else-if: $psoC is true)[ [[Run.-&gt;finale 2]]]
+(else:)[ [[Run.-&gt;finale 3]]]</tw-passagedata><tw-passagedata pid="41" name="continue ending 1" tags="" position="1599,1563" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="42" name="continue ending 2" tags="" position="1869,1560" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="43" name="continue ending 3" tags="" position="2134,1556" size="100,100">Double-click this passage to edit it.</tw-passagedata><tw-passagedata pid="44" name="Win over the captain" tags="" position="204,663" size="100,100">(set: $Hearts to true)You choose to take the moral road: convince Ripple and Co&#39;s flagship captain to give the Pearls back to the village. You tell Willem.
+
+&quot;Sounds fine to me,&quot; he shrugs. &quot;We just have to think of what&#39;s in it for them. You know what these corporate schmucks are like: they&#39;re moths who fly on over to the brighter light.&quot;
+
+&quot;I say we offer them something we don&#39;t have,&quot; you say. &quot;I&#39;d bet you a limb these board members know nothing about our village&#39;s heritage. It would be easy to convince them we know the existence of a cave with greater fortunes than clams.&quot;
+
+Willem grins and shakes your hand. &quot;I bet you once they figure it out they&#39;ll come after us for the Pearls, but if we have them all, they can hardly hurt us. All of the Pearls&#39; healing powers will be ours. As long as they agree, this might just work.&quot;
+
+[[&quot;We&#39;re going to need supplies,&quot;]] you point out.</tw-passagedata><tw-passagedata pid="45" name="finale 3" tags="" position="2133.666666666667,1409.3333333333333" size="100,100">Willem attempts to take the Pearls, but you don&#39;t let him, and give it back to the elders.
+
+[[continue ending 3]]</tw-passagedata><tw-passagedata pid="46" name="finale 2" tags="" position="1865.3333333333333,1404.3333333333333" size="100,100">Relationship with Willem is positive, and you talk him out stealing the Pearls. He gets some anyway from the elder
+
+[[continue ending 2]]</tw-passagedata><tw-passagedata pid="47" name="finale 1" tags="" position="1597,1407.6666666666667" size="100,100">Bad ending, Willem takes all/some of the Pearls for himself, not for the village
+
+[[continue ending 1]]</tw-passagedata></tw-storydata>
 <script title="Twine engine code" data-main="harlowe">"use strict";var _slicedToArray=function(){return function(e,t){if(Array.isArray(e))return e;if(Symbol.iterator in Object(e))return function(e,t){var n=[],r=!0,a=!1,i=void 0;try{for(var o,s=e[Symbol.iterator]();!(r=(o=s.next()).done)&&(n.push(o.value),!t||n.length!==t);r=!0);}catch(e){a=!0,i=e}finally{try{!r&&s.return&&s.return()}finally{if(a)throw i}}return n}(e,t);throw new TypeError("Invalid attempt to destructure non-iterable instance")}}(),_typeof="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e};function _defineProperty(e,t,n){return t in e?Object.defineProperty(e,t,{value:n,enumerable:!0,configurable:!0,writable:!0}):e[t]=n,e}function _toConsumableArray(e){if(Array.isArray(e)){for(var t=0,n=Array(e.length);t<e.length;t++)n[t]=e[t];return n}return Array.from(e)}!function(){
 /**
  * @license almond 0.3.3 Copyright jQuery Foundation and other contributors.
